@@ -8,6 +8,6 @@
 function calculate () {
   let base = parseInt(document.getElementById('base-of-triangle').value)
   let height = parseInt(document.getElementById('height-of-triangle').value)
-  let area = (base / 2) + (height / 2)
+  let area = (base * height) / 2
   document.getElementById('area').innerHTML = 'The area is ' + area + ' cm²'
 }
